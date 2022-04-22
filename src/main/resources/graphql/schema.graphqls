@@ -1,0 +1,9 @@
+type Query {
+    account(accountId: String): Account
+}
+
+type Account {
+    accountId: String
+    currencyId: String
+    licenseId: String
+}
